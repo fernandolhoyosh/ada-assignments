@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 export function Menu() {
   return (
     <nav>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/events">Events</a>
+          <Link to="/events">Events</Link>
         </li>
       </ul>
     </nav>
